@@ -1,0 +1,10 @@
+python -m venv virtual
+
+source virtual/scripts/activate
+
+deactivate
+
+uvicorn index:app --reload
+
+pip install --upgrade motor
+pip install -r requirements.txt
